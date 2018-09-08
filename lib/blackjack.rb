@@ -28,7 +28,6 @@ def initial_round
   y = deal_card
   z = x+y
   display_card_total(z)
-  
 end
 
 def hit(card_total)
