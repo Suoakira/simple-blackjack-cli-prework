@@ -26,7 +26,7 @@ end
 def initial_round
   x = deal_card
   y = deal_card
-  x+y
+  z = x+y
   
 end
 
