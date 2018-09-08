@@ -24,12 +24,10 @@ def end_game(card_total)
 end
 
 def initial_round
-  first_card = deal_card
-  display_card_total(first_card)
-  secound_card = deal_card
-  display_card_total(secound_card)
-  hand_total = first_card + secound_card
-  display_card_total(hand_total)
+  x = deal_card
+  y = deal_card
+  x+y
+  
 end
 
 def hit(card_total)
