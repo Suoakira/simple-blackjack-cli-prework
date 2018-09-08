@@ -57,7 +57,7 @@ end
 def runner
   welcome 
   initial_round 
-  hit?(total) until hit?(total) > 21
+  hit? until hit? > 21
   
 end
     
