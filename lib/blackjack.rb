@@ -8,6 +8,7 @@ end
 
 def display_card_total(card_total)
   puts "Your cards add up to #{card_total}"
+  card_total
   
 end
 
@@ -28,7 +29,6 @@ def initial_round
   secoundcard = deal_card
   total = firstcard + secoundcard
   display_card_total(total)
-  total
 end
 
 def hit?(card_total)
